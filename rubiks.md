@@ -16,11 +16,11 @@ permalink: rubiks
 
 ## Steg 1 -  Korset
 
-| ![](/Img/cross.png) | Sätt fyra kanter på rätt plats så det skapar ett kors på en sida. Viktigt att kanternas båda färger stämmer överens med de två mittbitarna de sitter mellan. Vänd kuben upp och ner så korset hamnar på undersidan när det är löst. |
+| ![](/Img/Cross.png) | Sätt fyra kanter på rätt plats så det skapar ett kors på en sida. Viktigt att kanternas båda färger stämmer överens med de två mittbitarna de sitter mellan. Vänd kuben upp och ner så korset hamnar på undersidan när det är löst. |
 
 ## Steg 2 - Hörnen i första lagret
 
 | ![](/Img/fl.png) | Sätt fyra hörn på rätt plats genom att flytta ner dem från kubens översta lager en och en till kubens understa lager med dessa tre algoritmer. Korset från första steget finns nu på undersidan av kuben och de fyra hörnen med samma färg som korset har är det som ska sättas på rätt plats.  |
 
-| ![](/Img/rurc.png) | ![](/Img/fcucf.png) | ![](/Img/ru2rcucrurc.png) |
+| ![](/Img/RURc.png) | ![](/Img/FcUcF.png) | ![](/Img/RU2RcUcRURc.png) |
 |     R U R'        | F' U' F              | R U2 R' U' R U R' |

@@ -29,8 +29,8 @@ permalink: rubiks
 
 | ![](/Img/F2L.png) | Sätt de fyra kanterna som ska sitta i andra lagret rätt med en av dessa algoritmer. |
 
-| ![](/Img/RcUcRcUcRcURUR.png) | ![](/Img/RURURUcRcUcRc.png) | 
-|  R' U' R' U' R' U R U R   | R U R U R U' R' U' R' |
+| ![](/Img/RcUcRcUcRcURUR.png) |  |![](/Img/RURURUcRcUcRc.png) | 
+|  R' U' R' U' R' U R U R      |  | R U R U R U' R' U' R' |
 
 ## Steg 4 - Vänd kanterna i sista lagret
 

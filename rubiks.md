@@ -61,5 +61,4 @@ permalink: rubiks
 | ![](/Img/EPLL.png) | Använd algoritmen som cirkulerar tre kanter så alla föra kanter blir rätt. Snurra översta lagret så en kant som är rätt är längs bort från dig. Om ingen kant sitter rätt gör algoritmen en gång så en kant blir rätt. Gör sedan samma algoritm en gång till.  |
 
 | ![](/Img/RUcRURURUcRcUcR2.png) |
-| R U' R U R U R U' R' U' R2|
- 
+| R U' R U R U R U' R' U' R2 |

@@ -36,7 +36,7 @@ permalink: rubiks
 
 | ![](/Img/EOLL.png) | Vänd kantbitarna i sista lagret med en av dessa två algoritmer. Om ingen kantbit är rättvänd i sista lagret gör en av de två algoritmerna och sedan en av dem en gång till. |
 
-| ![](/Img/UCRUcRcFc.png) | ![](/Img/FRURcUcFc.png) | 
+| ![](/Img/FURUcRcFc.png) | ![](/Img/FRURcUcFc.png) | 
 |  F U R U' R' F'              | F R U R' U' F' |
 
 ## Steg 5 - Vänd hörnen i sista lagret
@@ -63,6 +63,3 @@ permalink: rubiks
 | ![](/Img/RUcRURURUcRcUcR2.png) |
 | R U' R U R U R U' R' U' R2|
  
-
-
-

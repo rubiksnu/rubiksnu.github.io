@@ -12,7 +12,7 @@ permalink: pikmakarn
 
 Här beskriver jag hur jag har modifierat bindningen för att kunna monteras på Pikmakars SVART. Pikmakarns SVART och Skyllermarks Röd/Blå har samma profil med förborrade hål så det bör gå att montera en Salomonbinding på en skridsko från Skyllermarks med samma modifiering. 
 
-## Material
+## Saker du behöver
 * Skridskor med hål anpassade för en bindning från Rottefella. Tex NNN-BC. 
 * SNS-bindning från Salomon. 
 * 8 st maskinskruvar med tillhörande bricka och mutter i M4 av varierande längder. Jag köpte 10 st 4 cm långa och kapade själv i passande längder. (3 olika längder per skridsko behövs)
@@ -20,24 +20,31 @@ Här beskriver jag hur jag har modifierat bindningen för att kunna monteras på
 * Valfritt - Om det tillfälliga arbetsbordet är en gammal släktklenod är det rekomenderat att lägga ut en dagstidning som underlag på bordet. 
 * Lämpliga verktyg (skruvmejsel, skiftnyckel, kniv, borrmaskin osv...)
 
-![Material](/Img/material.jpg)
-Material för en skridsko. Spartips: Om du kan köpa en Salomon SNS profil Classic till halva priset och sedan köpa lösa skejtkuddar kan du spara 201kr. 
+![Saker du behöver](/Img/material.jpg)
+
+Prylar för en skridsko. 
+Spartips: Om du kan köpa en Salomon SNS profil Classic till halva priset och sedan köpa lösa skejtkuddar kan du spara 201kr. 
 
 ## Borra
 Skär bort den stödplast som finns strax framför hålet på skenan till bindningen där det nya hålet ska vara. Måtta noga vart hålet ska vara och borra med lämplig borr för skruvarna. 
-![Material](/Img/halunder.jpg)
+![Hål underifrån](/Img/halunder.jpg)
+
 Bild på undersidan av skenan, om bindningen ska monteras i det främsta hålen på skridskon bör hålet borras i den sista delen av skenan bakom originalhålet. 
-![Material](/Img/halovan.jpg)
+![Hål ovanifrån](/Img/halovan.jpg)
+
 Hålet försänktes med en större borr på ovansidan. 
 
 ## Montera
-![Material](/Img/slangskuren.jpg)
+![Slang](/Img/slangskuren.jpg)
+
 En tillskuren bit bränsleslang fungera som fyllnadsmaterial i tomrummet under den nyborrade hålet. 
-![Material](/Img/slangmonterad.jpg)
+![Slang](/Img/slangmonterad.jpg)
+
 Slangen träs på skruven. 
 
 ## Resultat
-![Material](/Img/skridskor1.jpg)
+![Skridsko](/Img/skridskor1.jpg)
+
 Så här ser det färdigmonterade bindningarna ut. Som synes är bindningarna inte splitter nya utan jag har testat dem i några mil under en säsong. 
 
 ### Övrigt

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Om
-permalink: /om
+permalink: om
 ---
 # Om
 Saker som jag tycker ska finnas här. Några saker är säkert mer vettiga än andra. 

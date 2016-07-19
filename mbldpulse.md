@@ -6,7 +6,7 @@ permalink: mbldpulse
 # My pulse during Rubik's Cube: Multiple Blindfolded. 
 I have used the pulse meter in my [Microsoft Band](https://www.microsoft.com/microsoft-band) during my Rubik's Cube: Multiple blindfolded practice. 
 
-I messed everything up in the [Euro 2016 Rubik's Cube: Multiple Blindfolded](https://www.worldcubeassociation.org/competitions/Euro2016/results/all#e333mbf_c) and got a DNF (3/8). I was a bit nervous and memorized things wrong, corrected it and got stresses up and in the end I even popped one of the cubes. I was wearing my Microsoft Band at the Euro so I got a nice graph of my pulse during the attempt and thought it would be funny to show it to others. I also showing some graphs from my practice. Some of them are not "full" attempts (not doing maximum numbers of cube I can do in an hour). 
+I messed everything up in the [Euro 2016 Rubik's Cube: Multiple Blindfolded](https://www.worldcubeassociation.org/competitions/Euro2016/results/all#e333mbf_c) and got a DNF (3/8). I was a bit nervous and memorized things wrong, corrected it and got stressed up and in the end I even popped one of the cubes. I was wearing my Microsoft Band at the Euro so I got a nice graph of my pulse during the attempt and thought it would be funny to show it to others. I also showing some graphs from my practice. Some of them are not "full" attempts (not doing maximum numbers of cube I can do in an hour). 
 This is "just for fun" and the measuring method of my pulse has questionable accuracy but I think it is possible to read something valuable for some people from this. 
 
 ### Attempt on 6 cubes 

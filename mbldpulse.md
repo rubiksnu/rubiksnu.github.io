@@ -1,7 +1,7 @@
 ---
 layout: default
 title: MultiBldPulse
-permalink: multibldpulse
+permalink: mbldpulse
 ---
 # My pulse during Rubik's Cube: Multiple Blindfolded. 
 I have used the pulse meter in my [Microsoft Band](https://www.microsoft.com/microsoft-band) during my Rubik's Cube: Multiple blindfolded practice. 

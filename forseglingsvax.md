@@ -18,10 +18,12 @@ Jag gjord ett vattenbad i en kastrull och ställde en hög smal behållare i kas
 
 ## Resultat
 ![](/Img/paraffin/1.jpg)
-Resultatet blev lite blandad. Jag är ganska säker på att förseglingen är tät och det är svårt att misslyckas att få en bra försegling. Att få en snygg försegling verkar kräva lite teknik och lite kontroll på temperaturen. 
+
+Resultatet blev lite blandad. Jag är ganska säker på att förseglingen är tät och det är svårt att misslyckas att få en bra försegling. Att få en snygg försegling verkar kräva lite teknik och kontroll på temperaturen. 
 
 
-Rekommenderad temperatur vid ljusstöpning är 70 grader på ljusmassan. Och det var lättare att få ett bättre resultat vid högre temperatur, tex smälte paraffinet snabbare och det blev mindre bubblor och klumpar när temperaturen var högre. 
+Rekommenderad temperatur vid ljusstöpning är 70 grader på ljusmassan. Det var lättare att få ett bättre resultat vid högre temperatur, tex smälte paraffinet snabbare och det blev mindre bubblor och klumpar när temperaturen var högre. 
 ![](/Img/paraffin/2.jpg)
+
 För att få paraffinet att rinna behöves lite teknikträning. Paraffinet är lättflytande och stelnar i ett tunt lager direkt man tar upp flaskan och droppar uteblir oftast helt. För att få det att rinna provade jag att värma toppen på flaskan innan jag doppade den i paraffinet. Det gjorde att det tog längre tid för paraffinet att stelna och droppar kunde rinna ner när jag höll flaskan rättvänd. Med denna metod kan man även någorlunda kontrollera hur långa dropparna blir genom att inte värma längre ner än vad man vill att dropparna ska rinna. Jag förvärmde flaskorna i ett eget kärl med vatten som jag hade 54 grader varmt. Samma effekt kan troligen fås om man vid första doppet i paraffinet låter flaskan vara nere i vatten/paraffinet lagom länge. Jag provade med lite röd färg det sista jag gjorde och är ganska nöjd över resultatet. Tanken är att jag ska prova detta på flaskor av en suröl som står och jäser nu som ska tappas på champagneflaskor i början av nästa år. 3-4 dopp behövdes för att få detta resultat. 
 ![](/Img/paraffin/3.jpg)

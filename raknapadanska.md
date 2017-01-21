@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Räkna på danska
-permalink: RaknaPaDanska
+permalink: raknapadanska
 ---
 
 

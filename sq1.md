@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Sq1 - Rouk n Skrew
+title: Sq1 - Roux n Skrew
 permalink: sq1
 ---
 # Roux n Skrew

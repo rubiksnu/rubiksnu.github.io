@@ -1,3 +1,8 @@
+---
+layout: default
+title: Sq1 - Rouk n Skrew
+permalink: sq1
+---
 # Roux n Skrew
 
 1. LD block - intuitive

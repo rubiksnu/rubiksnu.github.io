@@ -8,7 +8,7 @@ En Karta 2
 var vectorLayer = new ol.layer.Vector({
     source: new ol.source.Vector({
         format: new ol.format.GeoJSON(),
-        url: '/assets/js/poi.json'
+        url: '/_data/poi.json'
     }),
     style: new ol.style.Style({
         image: new ol.style.Circle(({
@@ -49,3 +49,10 @@ map.on('click', function (evt) {
 
 });
 </script>
+
+
+<ul>
+  {% for p in site.data.poi %}
+    <li>{{p}}</li>
+  {% end for %}
+</ul>

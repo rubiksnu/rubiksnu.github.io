@@ -49,3 +49,9 @@ map.on('click', function (evt) {
 
 });
 </script>
+
+<ul>
+{% for feature in site.data.poi.features %}
+<li>{{ feature.Name }}</li>
+{% end for %}
+</ul>

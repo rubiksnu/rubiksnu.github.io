@@ -11,12 +11,18 @@ var vectorLayer = new ol.layer.Vector({
         url: '/assets/js/poi.json'
     }),
     style: new ol.style.Style({
-        image: new ol.style.Circle( /** @type {olx.style.IconOptions} */ ({
+        image: new ol.style.Circle(({
+            radius: 7,
+            fill: new ol.style.Fill({
+                color: '#000000'
+            })
+        })),
+        image: new ol.style.Circle(({
             radius: 5,
             fill: new ol.style.Fill({
                 color: '#ffffff'
             })
-        }))
+        })),
     })
 });
 
@@ -40,10 +46,11 @@ map.on('click', function (evt) {
     return feature;
   });
   if (feature) {
-    element.innerHTML = feature.get('name');
+    element.innerHTML = feature.values_.Name;
   }
+  else{
+    element.innerHTML = '';
+  }
+
 });
-
-
-
 </script>

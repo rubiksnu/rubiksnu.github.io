@@ -17,6 +17,74 @@
             57.62153640362195
           ]
         }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Type": "Golf",
+          "Name": "Ekerum GK",
+          "ChargingInfo": "",
+          "Power": "7kWh",
+          "Number": "6"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            16.578696,
+            56.784801
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Type": "Golf",
+          "Name": "Ombergs Golf Resort",
+          "ChargingInfo": "",
+          "Power": "7/22kWh",
+          "Number": "9"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            14.622856,
+            58.260025 
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Type": "Golf",
+          "Name": "Landeryds GK",
+          "ChargingInfo": "https://www.landerydsgolf.se/aktuellt-medlem/1071-laddpunkter-foer-elbilar-och-laddhybrider",
+          "Power": "11kWh",
+          "Number": "4"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            15.709267,
+            58.360231
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Type": "Golf",
+          "Name": "Lysekil Holma GK",
+          "ChargingInfo": "",
+          "Power": "22kWh",
+          "Number": "2"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            11.550014, 
+            58.372435
+          ]
+        }
       }
     ]
   }

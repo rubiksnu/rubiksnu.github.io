@@ -52,6 +52,6 @@ map.on('click', function (evt) {
 
 <ul>
 {% for feature in site.data.poi.features %}
-<li>{{ feature.Name }}</li>
+<li>{{ feature.properties.Name }}</li>
 {% endfor %}
 </ul>

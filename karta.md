@@ -7,7 +7,7 @@ permalink: karta
 
 <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.3/build/ol.js"></script>
 
-<div id="map" style="width: 400px;height: 100%;"></div>
+<div id="map" class="map" style="width: 400px;height: 100%;"></div>
     <script type="text/javascript">
       var map = new ol.Map({
         target: 'map',

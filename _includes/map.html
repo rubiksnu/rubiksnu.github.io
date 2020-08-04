@@ -12,17 +12,12 @@ var vectorLayer = new ol.layer.Vector({
     }),
     style: new ol.style.Style({
         image: new ol.style.Circle(({
-            radius: 7,
-            fill: new ol.style.Fill({
-                color: '#000000'
-            })
-        })),
-        image: new ol.style.Circle(({
             radius: 5,
             fill: new ol.style.Fill({
-                color: '#ffffff'
-            })
-        })),
+                color: '#000000'
+            }),
+            stroke: new ol.style.Stroke({color: 'black', width: 2})
+        }))
     })
 });
 

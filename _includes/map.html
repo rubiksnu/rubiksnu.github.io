@@ -4,6 +4,7 @@ En Karta 2
 
 
 <div id="map" class="map" style="width: 100%;height: 400px;"></div>
+<div id="popup"></div>
 <script type="text/javascript">
 
 var vectorLayer = new ol.layer.Vector({
@@ -13,9 +14,9 @@ var vectorLayer = new ol.layer.Vector({
     }),
     style: new ol.style.Style({
         image: new ol.style.Circle( /** @type {olx.style.IconOptions} */ ({
-            radius: 20,
+            radius: 5,
             fill: new ol.style.Fill({
-                color: '#ffff00'
+                color: '#ffffff'
             })
         }))
     })
@@ -34,4 +35,36 @@ var map = new ol.Map({
         zoom: 4
     })
 });
+
+var element = document.getElementById('popup');
+
+var popup = new Overlay({
+  element: element,
+  positioning: 'bottom-center',
+  stopEvent: false,
+  offset: [0, -50],
+});
+map.addOverlay(popup);
+
+// display popup on click
+map.on('click', function (evt) {
+  var feature = map.forEachFeatureAtPixel(evt.pixel, function (feature) {
+    return feature;
+  });
+  if (feature) {
+    var coordinates = feature.getGeometry().getCoordinates();
+    popup.setPosition(coordinates);
+    $(element).popover({
+      placement: 'top',
+      html: true,
+      content: feature.get('name'),
+    });
+    $(element).popover('show');
+  } else {
+    $(element).popover('dispose');
+  }
+});
+
+
+
 </script>

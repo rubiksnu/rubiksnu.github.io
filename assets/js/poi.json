@@ -5,6 +5,7 @@
         "type": "Feature",
         "properties": {
           "Type": "Golf",
+          "Name": "Hills Gk",
           "ChargingInfo": "https://www.hillsgolfclub.se/medlem/elbilsladdning/",
           "Power": "7/22kWh",
           "Number": "150"

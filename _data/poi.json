@@ -85,6 +85,75 @@
             58.372435
           ]
         }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Type": "Golf",
+          "Name": "Arninge GK",
+          "ChargingInfo": "",
+          "Power": "3,7kWh",
+          "Number": "4"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            18.126900,
+            59.484017
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Type": "Golf",
+          "Name": "Friiberghs Gk",
+          "ChargingInfo": "https://www.friiberghsgk.se/gast",
+          "Power": "7/22kWh",
+          "Number": "5"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            17.490780,
+            59.699926
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Type": "Golf",
+          "Name": "Gävle Gk",
+          "ChargingInfo": "",
+          "Power": "22kWh",
+          "Number": "2"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            17.177562,
+            60.700022
+          ]
+        }
+      }
+      ,
+      {
+        "type": "Feature",
+        "properties": {
+          "Type": "Golf",
+          "Name": "Luleå Gk",
+          "ChargingInfo": "https://www.luleaenergi.se/sv/privatkund/nyheter/ny-laddningsmojligheter-pa-lulea-golfklubb/",
+          "Power": "11kWh",
+          "Number": "4"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.092493,
+            65.685225
+          ]
+        }
       }
     ]
   }

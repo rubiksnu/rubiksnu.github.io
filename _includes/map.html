@@ -43,7 +43,7 @@ map.on('click', function (evt) {
   if (feature) {
     element.innerHTML = 'Namn: ' + feature.values_.Name + '<br>' + 'Laddning: ' + feature.values_.Power  + '<br>' + 'Antal laddpunkter: ' + feature.values_.Number  + '<br>';
     if(feature.values_.ChargingInfo !== ''){
-        element.innerHTML+= '<a href="' + feature.values_.ChargingInfo + '">Länk till info</a>';
+        element.innerHTML+= '<a href="' + feature.values_.ChargingInfo + '" target="_blank">Länk till info</a>';
     }
   }
   else{

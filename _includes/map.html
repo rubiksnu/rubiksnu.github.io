@@ -1,8 +1,20 @@
 <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.3/build/ol.js"></script>
-Golfbanor med destinationsladdning
+
+<h1>Golfbanor med destinationsladdning</h1>
+
+<p>Här hittar du golfbanor/golfklubbar som erbjuder destinationsladdning för elbilar till sina 
+    gäster. </br>
+    Saknar du någon klubb på listan som du vet erbjuder destinationsladdning till sina gäster 
+    fyller vi på listan efter önskemål. Det finns 463 golfklubbar i Sverige och att inte äns 20 av 
+    dem erbjuder destinationsladdning är på tok för dåligt för golfsverige och förhoppningen med 
+    den här sidan är att listan kommer bidra till att fler golfklubbar kommer erbjuda laddning av elbilar i framtiden. 
+    </br>
+    Skicka epost till web@rubiks.nu eller gör en <a href="https://github.com/rubiksnu/rubiksnu.github.io/pulls">Pull request</a> 
+    om du vet vad du gör. 
+</p>
 
 <div id="map" class="map" style="width: 80%;height: 600px;float: left;"></div>
-<div id="info" style="display: inline;border: 1px black;float: right;font-size: small;"></div>
+<div id="info" style="display: inline;border: 1px black;font-size:medium; text-align: left;"></div>
 <script type="text/javascript">
 
 var vectorLayer = new ol.layer.Vector({
@@ -53,7 +65,7 @@ map.on('click', function (evt) {
 });
 </script>
 
-<ul style="clear: both;;">
+<ul style="clear: both; list-style-type: none;">
 {% for feature in site.data.poi.features %}
 <li>{{ feature.properties.Name }}</li>
 {% endfor %}

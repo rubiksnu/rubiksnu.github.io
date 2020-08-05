@@ -153,6 +153,142 @@
             65.685225
           ]
         }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Type": "Golf",
+          "Name": "Lydinge Resort",
+          "ChargingInfo": "",
+          "Power": "11kWh",
+          "Number": "2"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            12.866331,
+            56.099093
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Type": "Golf",
+          "Name": "Wäsby Golf",
+          "ChargingInfo": "",
+          "Power": "Okänt",
+          "Number": "Okänt"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            12.866331,
+            56.099093
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Type": "Golf",
+          "Name": "Kumla Golfklubb",
+          "ChargingInfo": "http://www.kumlagk.se/laddstolpe-for-elbilar/",
+          "Power": "Okänt",
+          "Number": "2"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            15.258346,
+            59.119383
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Type": "Golf",
+          "Name": "Sjögärde GK",
+          "ChargingInfo": "",
+          "Power": "11kWh",
+          "Number": "1"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            15.258346,
+            59.119383
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Type": "Golf",
+          "Name": "Lindesberg GK",
+          "ChargingInfo": "https://lindesbergsgk.se/laddstolpe-pa-plats/",
+          "Power": "2,2kWh",
+          "Number": "2"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            15.241774,
+            59.584986
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Type": "Golf",
+          "Name": "Lyckorna GK",
+          "ChargingInfo": "http://www.ljungskile.se/laddstolparna-ar-pa-plats-pa-lyckorna-golfklubb/",
+          "Power": "22kWh",
+          "Number": "4"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            11.903338,
+            58.202225
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Type": "Golf",
+          "Name": "Grytsbergs GK",
+          "ChargingInfo": "",
+          "Power": "11kWh",
+          "Number": "4"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            16.990898,
+            59.102359
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Type": "Golf",
+          "Name": "Ekholmsnäs GK",
+          "ChargingInfo": "",
+          "Power": "7/?kWh",
+          "Number": "3"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            18.188352,
+            59.361295
+          ]
+        }
       }
     ]
   }

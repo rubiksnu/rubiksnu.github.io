@@ -35,7 +35,7 @@ var map = new ol.Map({
     })
 });
 
-var element = document.getElementById('popup');
+var element = document.getElementById('info');
 map.on('click', function (evt) {
   var feature = map.forEachFeatureAtPixel(evt.pixel, function (feature) {
     return feature;

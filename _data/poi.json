@@ -93,7 +93,7 @@
           "Name": "Arninge GK",
           "ChargingInfo": "",
           "Power": "3,7kWh",
-          "Number": "4"
+          "Number": "3"
         },
         "geometry": {
           "type": "Point",
@@ -177,8 +177,8 @@
           "Type": "Golf",
           "Name": "Wäsby Golf",
           "ChargingInfo": "",
-          "Power": "Okänt",
-          "Number": "Okänt"
+          "Power": "11",
+          "Number": "https://www.opigo.se/wasby-golf-erbjuder-elbilsladdning-till-sina-besokare/"
         },
         "geometry": {
           "type": "Point",
@@ -192,7 +192,7 @@
         "type": "Feature",
         "properties": {
           "Type": "Golf",
-          "Name": "Kumla Golfklubb",
+          "Name": "Kumla GK",
           "ChargingInfo": "http://www.kumlagk.se/laddstolpe-for-elbilar/",
           "Power": "Okänt",
           "Number": "2"
@@ -306,6 +306,24 @@
             55.567071
           ]
         }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Type": "Golf",
+          "Name": "Hooks GK",
+          "ChargingInfo": "",
+          "Power": "7/22kWh",
+          "Number": "32"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            14.271577,
+            57.538859
+          ]
+        }
       }
+
     ]
   }

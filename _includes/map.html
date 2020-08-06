@@ -15,7 +15,30 @@
 
 <div id="map" class="map" style="width: 80%;height: 600px;float: left;"></div>
 <div id="info" style="display: inline;border: 1px black;font-size:medium; text-align: left;"></div>
+
+<div id="popup" class="ol-popup">
+    <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+    <div id="popup-content"></div>
+</div>
 <script type="text/javascript">
+
+var container = document.getElementById('popup');
+var content = document.getElementById('popup-content');
+var closer = document.getElementById('popup-closer');
+
+var overlay = new ol.Overlay({
+  element: container,
+  autoPan: true,
+  autoPanAnimation: {
+    duration: 250,
+  },
+});
+
+closer.onclick = function () {
+  overlay.setPosition(undefined);
+  closer.blur();
+  return false;
+};
 
 var vectorLayer = new ol.layer.Vector({
     source: new ol.source.Vector({
@@ -41,25 +64,28 @@ var map = new ol.Map({
         }),
         vectorLayer
     ],
+    overlays: [overlay],
     view: new ol.View({
         center: ol.proj.fromLonLat([15.5, 62.82]),
         zoom: 4
     })
 });
 
-var element = document.getElementById('info');
+//var element = document.getElementById('info');
 map.on('click', function (evt) {
   var feature = map.forEachFeatureAtPixel(evt.pixel, function (feature) {
     return feature;
   });
   if (feature) {
-    element.innerHTML = 'Namn: ' + feature.values_.Name + '<br>' + 'Laddning: ' + feature.values_.Power  + '<br>' + 'Antal laddpunkter: ' + feature.values_.Number  + '<br>';
+    content.innerHTML = 'Namn: ' + feature.values_.Name + '<br>' + 'Laddning: ' + feature.values_.Power  + '<br>' + 'Antal laddpunkter: ' + feature.values_.Number  + '<br>';
     if(feature.values_.ChargingInfo !== ''){
-        element.innerHTML+= '<a href="' + feature.values_.ChargingInfo + '" target="_blank">Länk till info</a>';
+        content.innerHTML+= '<a href="' + feature.values_.ChargingInfo + '" target="_blank">Länk till info</a>';
+        overlay.setPosition(coordinate);
     }
   }
   else{
-    element.innerHTML = '';
+    overlay.setPosition(undefined);
+    closer.blur();
   }
 
 });

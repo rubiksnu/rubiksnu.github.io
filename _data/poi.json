@@ -289,6 +289,23 @@
             59.361295
           ]
         }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Type": "Golf",
+          "Name": "PGA Sweden National",
+          "ChargingInfo": "https://www.energi-sverige.se/vaara-nyheter/nyheter/nu-goer-vi-destinationsladdning-moejligt/",
+          "Power": "11kWh",
+          "Number": "2"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            13.183366,
+            55.567071
+          ]
+        }
       }
     ]
   }

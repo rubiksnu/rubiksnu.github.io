@@ -80,7 +80,7 @@ map.on('click', function (evt) {
     content.innerHTML = 'Namn: ' + feature.values_.Name + '<br>' + 'Laddning: ' + feature.values_.Power  + '<br>' + 'Antal laddpunkter: ' + feature.values_.Number  + '<br>';
     if(feature.values_.ChargingInfo !== ''){
         content.innerHTML+= '<a href="' + feature.values_.ChargingInfo + '" target="_blank">Länk till info</a>';
-        overlay.setPosition(coordinate);
+        overlay.setPosition(ol.proj.toLonLat(evt.coordinate));
     }
   }
   else{

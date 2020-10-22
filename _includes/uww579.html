@@ -1,0 +1,262 @@
+<style>
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+</style>
+
+
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 16</div>
+      <img src="Img/framifrån.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 16</div>
+      <img src="Img/Bakifrån.jpg" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 16</div>
+      <img src="Img/Instrument.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 16</div>
+        <img src="Img/Framsäte.jpg" style="width:100%">
+        <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">5 / 16</div>
+        <img src="Img/Baksäte.jpg" style="width:100%">
+        <div class="text"></div>
+    </div>
+    
+    <div class="mySlides fade">
+        <div class="numbertext">6 / 16</div>
+        <img src="Img/Kubfack.jpg" style="width:100%">
+        <div class="text"></div>
+    </div>
+    
+    <div class="mySlides fade">
+        <div class="numbertext">7 / 16</div>
+        <img src="Img/Kubhållare.jpg" style="width:100%">
+        <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">8 / 16</div>
+        <img src="Img/Säkerhetsfack.jpg" style="width:100%">
+        <div class="text"></div>
+    </div>
+  
+    <div class="mySlides fade">
+        <div class="numbertext">9 / 16</div>
+        <img src="Img/krok.jpg" style="width:100%">
+        <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">10 / 16</div>
+        <img src="Img/Extensionfack.jpg" style="width:100%">
+        <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">11 / 16</div>
+        <img src="Img/hoger.jpg" style="width:100%">
+        <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">12 / 16</div>
+        <img src="Img/Snetthöger.jpg" style="width:100%">
+        <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">13 / 16</div>
+        <img src="Img/Snetthögerbak.jpg" style="width:100%">
+        <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">14 / 16</div>
+        <img src="Img/Snettvansterfram.jpg" style="width:100%">
+        <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">15 / 16</div>
+        <img src="Img/Reservlucka.jpg" style="width:100%">
+        <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">16 / 16</div>
+        <img src="Img/Img/Baklucka.jpg" style="width:100%">
+        <div class="text"></div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+
+<h1>SAAB 9-3 (RUBIKS KUB BILEN)</h1>
+
+<h3>Beskrivning</h3>
+<p>Fin och välskött SAAB 9-3 av 2004 års modell, stått i varmt garage sedan jag köpte den 2011. En ägare innan dess och har stått för helt problemfria mil. Serviceärenden som bytta dämpare fram och fix av läckage från servostyrningen är gjorda. Provkörs och levereras på sommardäck med medföljande vinterdäck på stålfälg. Besiktad i Mars och fulltecknad servicebok. </p>
+<p>
+    Bilen har åkt landet runt på främst tävlingar i Speedcubing skyltad som "RUBIKS" och bilen är som gjord för en pålitlig och ytterst bekväm transport runt omkring i landet till kubtävlingar av alla dess slag. 
+    <br>
+    Vem kunde ens ana att ingenjörerna på SAAB kunde införa en lång rad utmärkta funktioner och förvaringsutrymmen som näst intill framstår som designade för förvaring av alla utrustning som behövs för ett svenskt mästerskap i Rubiks Kub. I bilen finns framför passagerarsätet ett kubfack som på ett säkert sätt förvarar upp till 25 av dina multikuber för grenen 3x3x3 Multi-Blind. Istället för mugghållare finns det en kubhållare som tack vare den löstagbara insatsen i SAAB original-del utgör en stabil plats för valfri kub i storlek från 2x2x2 upp till 6x6x6. Där förvarar du favoritkuben lätt åtkomlig och alltid redo för ett race med mot bilen bredvid när ni står still i rödljusen. 
+    <br>
+    Framför armstödet finns ett säkerhetsfack dedikerat för din 3x3x3 huvud-kub som är nåbart under färd så du själv kan säkerställa att den är med och i säkert förvar under hela resan. 
+    <br>
+    Ovanför dörrarna i baksätet finns det två krokar (en på vardera sida) för skrynkelfri transport av din ögonbindel till alla fyra blindgrenar som minimerar risken att tävla med en skrynklig och obekväm passform på din ögonbindel. 
+    <br>
+    Under den lätthanterliga luckan i det rymliga baggageutrymmet återfinns gått om plats för en triangel, Pyraminx, reservkub (om något mot förmodan skulle hända med din main-kub) och reservhjul. Till sist finns det i mitten av bilens tak strax innan vindrutans början en praktisk krok där du kan hänga en liten vacker kub för beskådan, den stora integrerade spegeln gör att du kan se dig själv under de stunder du beundrar kuben.  Spegeln kan även vinklas så du kan ha koll på din medpassagerare så hen inte tjuvkikar under den smått panikartade blindträning hen ägnar sig åt i bilen under färd pga traditionsenligt slarv med träning inför det stundade mästerskapet. 
+    <br>
+    Och inte nog med det, under armstödet finns ett tilläggsfack med gott om plats för övriga kuber du inte kan vara utan under tävlingen som din 7x7x7 eller Megaminx. Där har du också en möjlighet att toppa upp med upp till 6 multikuber till som du behöver om du ska ta ett nytt svenskt rekordet i 3x3x3 Multi-Blind. 
+</p>
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
